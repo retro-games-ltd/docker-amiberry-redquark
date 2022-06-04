@@ -2,7 +2,7 @@
 # (c) 2022 Retro Games Ltd
 #
 FROM debian:buster-slim
-MAINTAINER RetroGame Support <support@retrogames.biz>
+LABEL Maintainer="RetroGame Support <support@retrogames.biz>"
 
 RUN dpkg --add-architecture armhf
 RUN apt-get update
