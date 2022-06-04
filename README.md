@@ -7,7 +7,7 @@ Requirements:
 ## Step by step instructions
 
 1. Install Docker on your machine, from https://www.docker.com/
-2. Clone this repository: `git clone https://github.com/midwan/docker-amiberry-redquark`
+2. Clone this repository: `git clone https://github.com/retro-games-ltd/docker-amiberry-redquark`
 3. Move into the cloned repository: `cd docker-amiberry-redquark`
 4. Build the docker image from `Dockerfile`, giving it a name: `docker build --pull --rm -f "Dockerfile" -t amiberry-redquark:latest "."`
 This will: 
